@@ -1,0 +1,15 @@
+﻿@model MVC.Caching.Models.Product
+
+@{
+    ViewBag.Title = "DetailsWithPartial";
+}
+
+<h2>DetailsWithPartial</h2>
+
+@Html.Action("ProductDetailsChild", new { id = Model.Id })
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
