@@ -80,7 +80,7 @@ Parameters:
  
 ### Donut Caching and Donut Hole Caching
 
-![enter image description here](http://www.dotnet-tricks.com/Content/images/mvc/donut.png)
+![enter image description here](https://dotnettrickscloud.blob.core.windows.net/img/mvc/donut.png)
 
 Donut caching is the best way to cache an entire web page except for one or more parts of the web page. Donut caching is very useful in the scenarios where most of the elements in your page are rarely changed except the few sections that dynamically change, or changed based on a request parameter.
 
